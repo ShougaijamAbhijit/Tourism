@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Paradise</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Explore Paradise</h1>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Discover the World’s Hidden Gems</h2>
+      <p>Plan your next adventure with us.</p>
+      <button onclick="scrollToSection('destinations')">Explore Now</button>
+    </div>
+  </section>
+
+  <!-- Destinations -->
+  <section id="destinations">
+    <h2>Top Destinations</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach">
+        <h3>Tropical Beaches</h3>
+        <p>Relax under the sun with crystal-clear waters.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Mountains">
+        <h3>Majestic Mountains</h3>
+        <p>Hike through breathtaking landscapes and peaks.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156" alt="City">
+        <h3>Vibrant Cities</h3>
+        <p>Experience culture, food, and nightlife like never before.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2>Travel Moments</h2>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Travel">
+      <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" alt="Adventure">
+      <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7" alt="Nature">
+      <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" alt="Holiday">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Explore Paradise. All rights reserved.</p>
+  </footer>
+</body>
+</html>
